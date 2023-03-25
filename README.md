@@ -1,2 +1,3 @@
-0x11. C - printf\n
+0x11. C - printf
+
 Background Context - Write your own printf function.
