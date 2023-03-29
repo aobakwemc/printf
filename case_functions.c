@@ -57,6 +57,7 @@ int print_unsign(va_list arg, int base)
 	cont = _strlen(s);
 	return (cont);
 }
+
 /**
  * print_string - print string
  * @arg: va_list parameter
@@ -69,10 +70,12 @@ int print_string(va_list arg)
 	int cont = 0;
 
 	s = va_arg(arg, char *);
+
 	if (!s)
 	{
 		s = "(null)";
 		_puts(s);
+
 		return (_strlen(s));
 	}
 	_puts(s);
